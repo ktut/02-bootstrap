@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.row.navbar .name h1 {
+    background: #4aaaa5;
+    color: white;
+}
+
+/* .row.body {
+    max-width: 940px;
+    margin: 0 auto;
+} */
+
+.row.footer {
+    color: white;
+    background: #666666;
+    border-top: 10px solid #4aaaa5;
+}
