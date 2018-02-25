@@ -17,3 +17,38 @@
     background: #666666;
     border-top: 10px solid #4aaaa5;
 }
+
+.aside a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    transition: all 0.3s;
+}
+
+.aside a:hover {
+    opacity: 0.5;
+}
+
+.aside a.git {
+    background-image: url(./../images/github.svg);
+}
+
+.aside a.linkedin {
+    background-image: url(./../images/linkedin.svg);
+}
+
+.aside a.stack {
+    background-image: url(./../images/stack.png);
+    background-size: 54px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 641px) {
+    .row.footer {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+}
